@@ -1,0 +1,26 @@
+[
+    {
+        "Model": "RandomForest",
+        "Best_Hyperparameters": "{'model__max_depth': 10, 'model__n_estimators': 150}",
+        "CV_RMSE": 289.14,
+        "Test_RMSE": 279.86,
+        "Test_MAE": 113.67,
+        "Test_R2": 0.9314
+    },
+    {
+        "Model": "GradientBoosting",
+        "Best_Hyperparameters": "{'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__n_estimators': 150}",
+        "CV_RMSE": 294.58,
+        "Test_RMSE": 283.29,
+        "Test_MAE": 119.81,
+        "Test_R2": 0.9297
+    },
+    {
+        "Model": "XGBoost",
+        "Best_Hyperparameters": "{'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__n_estimators': 100}",
+        "CV_RMSE": 295.95,
+        "Test_RMSE": 286.72,
+        "Test_MAE": 123.51,
+        "Test_R2": 0.928
+    }
+]
